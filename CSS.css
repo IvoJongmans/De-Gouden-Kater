@@ -1,0 +1,280 @@
+.nav {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d1 {
+    margin-top: 20px;
+    width: 380px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: lijn;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes lijn {
+    0% {margin-top: 20px;
+        width: 380px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;}
+    50% {margin-top: 20px;
+        width: 0px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;}
+    100% {margin-top: 20px;
+        width: 380px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;}    
+}
+
+.d2 {
+    font-family: 'Oswald' , sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.d2 span {
+    color: 	#FFD700;
+    animation-name: goudd2span;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes goudd2span {
+    0% {color: #FFD700;}
+    50% {color: black;}
+    100% {color: #FFD700;}
+}
+
+.d3 {
+    margin-top: 20px;
+    width: 380px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: lijn;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.d4 {
+    margin-top: 25px;
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(d1bg.jpg);    
+}
+
+.menu {
+    margin-top: 25px;
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.menu p.voor {
+    width: 230px;
+    height: 446px;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    font-family: 'Oswald' , sans-serif;
+    margin-left: 25px;
+    margin-right: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.menu p.voor:hover {
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.menu p.hoofd {
+    width: 230px;
+    height: 446px;
+    text-align: center;
+    float: left;
+    border: 2px solid #FFD700;
+    font-family: 'Oswald' , sans-serif;
+    margin-right: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;        
+}
+
+.menu p.hoofd:hover {
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.menu p.na {
+    width: 230px;
+    height: 446px;
+    text-align: center;
+    float: left;
+    border: 2px solid black;
+    font-family: 'Oswald' , sans-serif;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.menu p.na:hover {
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.restaurant {
+    margin-top: 25px;
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.r1 {
+    width: 399px;
+    height: 249px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+    background-image: url(r1.jpg);
+    background-size: cover;
+}
+
+.r1:hover {
+    background-image: url(r5.jpg);
+    background-size: cover;    
+}
+
+.r2 {
+    width: 399px;
+    height: 249px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+    background-image: url(r2.jpg);
+    background-size: cover;
+}
+
+.r2:hover {
+    background-image: url(r6.jpg);
+    background-size: cover;    
+}
+
+.r3 {
+    width: 399px;
+    height: 249px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    float: left;
+    background-image: url(r3.jpg);
+    background-size: cover;
+}
+
+.r3:hover {
+    background-image: url(r7.jpg);
+    background-size: cover;    
+}
+
+.r4 {
+    width: 399px;
+    height: 249px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    float: left;
+    background-image: url(r4.jpg);
+    background-size: cover;
+}
+
+.r4:hover {
+    background-image: url(r8.jpg);
+    background-size: cover;    
+}
+
+.contact {
+    height: 300px;
+    width: 800px;
+    border: 2px solid black;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactinfo {
+    padding: 0px 25px 0px 25px;
+    float: left;
+    height: 225px;
+    width: 425px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    margin-left: 33px;
+    margin-right: 25px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.contacttext {
+    margin-top: 30px;
+    font-family: 'Oswald' , sans-serif;
+}
+
+.maps {
+    border: 2px solid #FFD700;
+    height: 225px;
+    width: 225px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    margin-right: 25px;
+    float: left;
+}
+
+.mapsframe {
+    
+    height: 225px;
+    width: 225px;
+    
+    }
+
+.resbox {
+    margin-top: 25px;
+    border: 2px solid black;
+    height: auto;
+    width: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.footer {
+    font-family: 'Oswald' , sans-serif;
+    text-align: center;
+    margin-top: 25px;    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+.nav a:hover span {
+    color: #FFD700;
+}
